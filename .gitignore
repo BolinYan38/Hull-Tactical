@@ -1,0 +1,55 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.artifacts/
+.pytest_cache/
+.coverage
+htmlcov/
+catboost_info/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Local competition data and setup notes; public setup lives in the root README.
+/archive/
+
+# Local comparison and recovery material: retain on disk, exclude from Git.
+/Optimal-transport-for-Hull-Tactical 2.ipynb
+/recovery_*/
+
+# Recomputable caches and an older duplicate result export
+results/**/*.pkl
+results/**/scores 2.csv
+
+# Earlier runs retained locally for review, outside the current research release.
+/hull_ot_research_plan.md
+/model/diagnose_ot_validation.py
+/results/ot_diagnostics/
+/results/ot_strategy_allocation/
+/results/random_forest_metrics.json
+/results/random_forest_holdout.csv
+/results/six_strategy_test/score_diagnostics.json
+
+# Local research and preparation material outside the publication scope.
+/model/
+/docs/
+/Hull_Six_Strategy_OT_Late_Submission.ipynb
+
+# Publish only the current six-strategy test exports.
+/results/*
+!/results/six_strategy_test/
+/results/six_strategy_test/*
+!/results/six_strategy_test/metrics.csv
+!/results/six_strategy_test/weight_summary.csv
+!/results/six_strategy_test/scores.csv
+!/results/six_strategy_test/weights.csv
+!/results/six_strategy_test/positions.csv
+!/results/six_strategy_test/daily_net_returns.csv
+!/results/six_strategy_test/test_curves.png

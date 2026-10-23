@@ -1,0 +1,43 @@
+{
+  "snapshot_date": "2026-10-23",
+  "notebook": {
+    "path": "Optimal-transport-for-Hull-Tactical.ipynb",
+    "sha256": "505edb71fe265f2452685efa8d4875a9ff6665fb9a9f79ec9acde72ce622bc42"
+  },
+  "results_sha256": {
+    "results/six_strategy_test/metrics.csv": "7f3c9c64fa88f89719c51a1afb019d68e17942f7a5d88ec44845ed3aeedf9992",
+    "results/six_strategy_test/weight_summary.csv": "e590b27a0ba7e336cfa0cfeaafe5fd03e91e572a7e9b5fc156ccf151b8355be2",
+    "results/six_strategy_test/scores.csv": "47ea1f0291f98fc8a7b40661db5d35f6ab22bcb7652ca05984fdb913bf01b764",
+    "results/six_strategy_test/weights.csv": "324a33f795a9f5157cfc39e2dcd96d0a19bbbc933f14af7cdada126543c45ff4",
+    "results/six_strategy_test/positions.csv": "0ecca9aa1298ceba24eb4e66b98b5c055552e1f87bcaa57b2415a70c41eb3f70",
+    "results/six_strategy_test/daily_net_returns.csv": "e649393d5a5ebdcef258de26faf97f36220411bb10d56119ca5d2799a93e7887",
+    "results/six_strategy_test/test_curves.png": "fbf4140b96295933521d04325a9303122d650b27be6adf360fb1ca95daeeebb0"
+  },
+  "data": {
+    "source": "Kaggle Hull Tactical - Market Prediction / train.csv",
+    "sha256": "8c1aba83e1bf34f91b234b7979f1fc7c397186b33a8d08bdd3634c08eb3810ca",
+    "rows": 9048,
+    "test_date_id": [
+      7439,
+      9047
+    ],
+    "test_days": 1609
+  },
+  "parameters": {
+    "WINDOW": 40,
+    "HORIZON": 20,
+    "K": 20,
+    "DISTANCE_TEMPERATURE": 1.0,
+    "SCORE_TEMPERATURE": 0.01,
+    "TIME_WEIGHT": 5.0,
+    "one_way_cost_rate": 0.0001,
+    "selection_cumulative_threshold": 0.5,
+    "strict_threshold": true
+  },
+  "reported_ot_metrics": {
+    "total_return": 2.2538491982471003,
+    "annual_return": 0.20295998410261884,
+    "sharpe": 0.91049339838248,
+    "max_drawdown": -0.28092610577616783
+  }
+}

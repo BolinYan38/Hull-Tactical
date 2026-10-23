@@ -1,0 +1,9 @@
+# Direct dependencies recorded from the local research environment (Python 3.12).
+# These pins describe the research environment, not a transitive dependency lock.
+numpy==2.5.3
+pandas==2.2.3
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+catboost==1.2.10
+matplotlib==3.11.2
